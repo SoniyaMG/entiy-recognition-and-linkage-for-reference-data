@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Reference2Auth Visualisations</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+    .foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-size:87%;
+    }
+    </style>
+
+  </head>
+  <body>
+    <nav class="light-blue lighten-1" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Reference2Auth Model</a>
+      <form action='/' method="get">
+        <button action='/' method="get" type="submit"  style="top : 7%;right : 0%;position: absolute;" class="btn-large waves-effect waves-light orange">Home</button>
+      </form>
+      </div>
+    </nav>
+
+
+    <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <h3 class="header center orange-text">Entity Recognition and Linkage for Reference Data</h3>
+	  <br></br>
+    <figure>
+      <embed type="image/svg+xml" src="{{url_for('static', filename='train_and_validation_loss_bert.svg')}}" width="76%" height="76%">
+      <embed type="image/svg+xml" src="{{url_for('static', filename='train_and_validation_log_loss_bert.svg')}}" width="76%" height="76%">
+      <embed type="image/svg+xml" src="{{url_for('static', filename='train_and_validation_accuracy_bert.svg')}}" width="76%" height="76%">
+      <embed type="image/svg+xml" src="{{url_for('static', filename='train_and_validation_log_accuracy_bert.svg')}}" width="76%" height="76%">
+      <embed type="image/svg+xml" src="{{url_for('static', filename='train_and_validation_loss_word2vec.svg')}}" width="76%" height="76%">
+      <embed type="image/svg+xml" src="{{url_for('static', filename='train_and_validation_log_loss_word2vec.svg')}}" width="76%" height="76%">
+      <embed type="image/svg+xml" src="{{url_for('static', filename='train_and_validation_accuracy_word2vec.svg')}}" width="76%" height="76%">
+      <embed type="image/svg+xml" src="{{url_for('static', filename='train_and_validation_log_accuracy_word2vec.svg')}}" width="76%" height="76%">
+    </figure>
+    </div>
+    </div>
+
+    <div class="foot footer-copyright">
+          By 'The Beatles' - Nagaraj Bahubali Asundi , Sriram Aralappa , Adarsh Anand , Soniya Manchenahalli Gnanendra Prasad and Abinaya Thulsi Chandrasekaran
+  </div>
+  </body>
+</html>
