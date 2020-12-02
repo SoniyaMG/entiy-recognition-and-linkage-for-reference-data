@@ -1,5 +1,5 @@
 # entiy-recognition-and-linkage-for-reference-data
-This is a research work conducted as part of partial fulfillment of the requirements for the degree of Master in Web and Data Science. Start with research_paper to get a overview of the topic. The project aims at linking author name mentions in a reference to the correspoding target authors in DBLP network.
+This is a research work conducted as part of partial fulfillment of the requirements for the degree of Master in Web and Data Science. Start with research_paper to get a overview of the topic. The project aims at linking author name mentions in a reference to the corresponding target authors in DBLP network.
 
 **Docker Installation**
 1) download and unzip the repository
