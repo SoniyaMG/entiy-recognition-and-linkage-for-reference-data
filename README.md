@@ -3,7 +3,7 @@ This is a research work conducted as part of partial fulfillment of the requirem
 
 **Docker Installation**
 1) download and unzip the repository
-2) cd to Reference2Auth_web_app
+2) cd to Reference2Auth_web_app and make sure the docker is running in your system.
 3) Build the docker image
    `docker build -t the_beatles_app .`
 4) Run the docker image
